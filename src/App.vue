@@ -4,6 +4,7 @@
         <app-nav-bar/>
         <app-carousel/>
         <app-about-us/>
+        <app-footer/>
     </div>
 </template>
 
@@ -12,10 +13,12 @@
     import AppNavBar from './components/NavBar';
     import AppCarousel from './components/Carousel';
     import AppAboutUs from './components/AboutUs';
+    import AppFooter from './components/Footer';
 
     export default {
         name: 'App',
         components: {
+            AppFooter,
             AppLogoBar,
             AppNavBar,
             AppCarousel,
