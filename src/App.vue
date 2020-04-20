@@ -3,6 +3,7 @@
         <app-logo-bar/>
         <app-nav-bar/>
         <app-carousel/>
+        <app-about-us/>
     </div>
 </template>
 
@@ -10,6 +11,7 @@
     import AppLogoBar from "./components/LogoBar";
     import AppNavBar from "./components/NavBar";
     import AppCarousel from "./components/Carousel";
+    import AppAboutUs from "./components/AboutUs";
 
     export default {
         name: 'App',
@@ -17,6 +19,7 @@
             AppLogoBar,
             AppNavBar,
             AppCarousel,
+            AppAboutUs,
         },
     }
 </script>
