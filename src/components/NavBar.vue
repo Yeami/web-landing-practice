@@ -56,8 +56,12 @@
                 }
             }
 
-            li + li {
+            li {
                 border-left: solid 1px white;
+            }
+
+            li:last-child {
+                border-right: solid 1px white;
             }
         }
     }

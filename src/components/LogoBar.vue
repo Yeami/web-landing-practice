@@ -1,7 +1,7 @@
 <template>
     <div class="container wrapper">
         <div class="left-side">
-            <img :src="'../logo.png'">
+            <img src="@/assets/logo.png">
             <div class="text">
                 <span class="title">Пальмира</span>
                 <span class="subtitle">лучший ресторан</span>
