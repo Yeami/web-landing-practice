@@ -2,7 +2,7 @@
     <div class="wrapper container-fluid">
         <div class="row">
             <div class="col-md-6">
-                <img src="./src/assets/about-us.png" alt="About us">
+                <img src="@/assets/about-us.png" alt="About us">
             </div>
             <div class="col-md-6 text-wrapper">
                 <span class="title">

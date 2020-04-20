@@ -1,7 +1,7 @@
 <template>
     <div class="container wrapper">
         <div class="left-side">
-            <img src="./src/assets/logo.png" alt="Logo">
+            <img src="@/assets/logo.png" alt="Logo">
             <div class="text">
                 <span class="title">{{title}}</span>
                 <span class="subtitle">{{subtitle}}</span>
