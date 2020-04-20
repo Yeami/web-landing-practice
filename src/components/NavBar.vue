@@ -10,7 +10,7 @@
 
 <script>
     export default {
-        name: "AppNavBar",
+        name: 'AppNavBar',
         data() {
             return {
                 items: [
@@ -22,8 +22,8 @@
                     'Банкеты',
                     'Контакты',
                 ],
-            }
-        }
+            };
+        },
     }
 </script>
 

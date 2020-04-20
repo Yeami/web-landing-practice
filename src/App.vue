@@ -8,10 +8,10 @@
 </template>
 
 <script>
-    import AppLogoBar from "./components/LogoBar";
-    import AppNavBar from "./components/NavBar";
-    import AppCarousel from "./components/Carousel";
-    import AppAboutUs from "./components/AboutUs";
+    import AppLogoBar from './components/LogoBar';
+    import AppNavBar from './components/NavBar';
+    import AppCarousel from './components/Carousel';
+    import AppAboutUs from './components/AboutUs';
 
     export default {
         name: 'App',

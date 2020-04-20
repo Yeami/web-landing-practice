@@ -2,9 +2,9 @@
     <div class="wrapper">
         <div class="text-wrapper">
             <div class="text">
-                <span class="title">Бизнес-ланч</span>
-                <span class="subtitle">в нашем ресторане</span>
-                <span class="subtitle-time">с 12.00 до 15.00</span>
+                <span class="title">{{title}}</span>
+                <span class="subtitle">{{subtitle}}</span>
+                <span class="subtitle-time">{{time}}</span>
             </div>
         </div>
         <div class="picture"/>
@@ -13,7 +13,14 @@
 
 <script>
     export default {
-        name: "AppCarousel",
+        name: 'AppCarousel',
+        data() {
+            return {
+                title: 'Бизнес-ланч',
+                subtitle: 'в нашем ресторане',
+                time: 'с 12.00 до 15.00',
+            };
+        },
     }
 </script>
 
@@ -51,11 +58,10 @@
             .subtitle {
                 color: #464646;
             }
-
         }
 
         .picture {
-            background: url("../../src/assets/carousel.png") no-repeat;
+            background: url('../../src/assets/carousel.png') no-repeat;
             background-size: 1218px 600px;
             height: 600px;
             width: 1218px;

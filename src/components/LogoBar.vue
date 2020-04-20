@@ -3,19 +3,26 @@
         <div class="left-side">
             <img src="./src/assets/logo.png" alt="Logo">
             <div class="text">
-                <span class="title">Пальмира</span>
-                <span class="subtitle">лучший ресторан</span>
+                <span class="title">{{title}}</span>
+                <span class="subtitle">{{subtitle}}</span>
             </div>
         </div>
         <div class="right-side">
-            <span>Мы рады встретить Вас домашним комфортом!</span>
+            <span>{{tagline}}</span>
         </div>
     </div>
 </template>
 
 <script>
     export default {
-        name: "AppLogoBar"
+        name: 'AppLogoBar',
+        data() {
+            return {
+                title: 'Пальмира',
+                subtitle: 'лучший ресторан',
+                tagline: 'Мы рады встретить Вас домашним комфортом!',
+            };
+        },
     }
 </script>
 
