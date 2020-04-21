@@ -16,17 +16,12 @@
 <script>
     export default {
         name: 'AppFooter',
+        props: {
+            window: Object,
+            items: Array,
+        },
         data() {
             return {
-                items: [
-                    'Афиша',
-                    'Фотоотчеты',
-                    'Меню',
-                    'Ресторан',
-                    'Караоке',
-                    'Банкеты',
-                    'Контакты',
-                ],
                 copywriting: 'Ⓒ2014 All Rights Reserved.',
             };
         },

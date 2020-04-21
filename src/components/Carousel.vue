@@ -7,13 +7,16 @@
                 <span class="subtitle-time">{{time}}</span>
             </div>
         </div>
-        <div class="picture"/>
+        <div v-if="window.width >= 560" class="picture"/>
     </div>
 </template>
 
 <script>
     export default {
         name: 'AppCarousel',
+        props: {
+            window: Object,
+        },
         data() {
             return {
                 title: 'Бизнес-ланч',

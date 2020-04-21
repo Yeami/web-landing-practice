@@ -11,18 +11,8 @@
 <script>
     export default {
         name: 'AppNavBar',
-        data() {
-            return {
-                items: [
-                    'Афиша',
-                    'Фотоотчеты',
-                    'Меню',
-                    'Ресторан',
-                    'Караоке',
-                    'Банкеты',
-                    'Контакты',
-                ],
-            };
+        props: {
+            items: Array,
         },
     }
 </script>
