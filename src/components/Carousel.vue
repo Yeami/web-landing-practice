@@ -124,6 +124,7 @@
             .text-wrapper {
                 width: 100%;
                 margin: 0.5rem 0;
+                padding-left: 0;
 
                 .text {
                     display: flex;

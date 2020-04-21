@@ -1,19 +1,25 @@
 <template>
     <div id="app" class="container-fluid">
-        <app-logo-bar
-                :window="window"
-                :items="menuItems"
-        />
-        <app-nav-bar
-                v-if="window.width >= 768"
-                :items="menuItems"
-        />
-        <app-carousel :window="window"/>
-        <app-about-us :window="window"/>
-        <app-footer
-                :window="window"
-                :items="menuItems"
-        />
+        <header>
+            <app-logo-bar
+                    :window="window"
+                    :items="menuItems"
+            />
+            <app-nav-bar
+                    v-if="window.width >= 768"
+                    :items="menuItems"
+            />
+        </header>
+        <main>
+            <app-carousel :window="window"/>
+            <app-about-us :window="window"/>
+        </main>
+        <footer>
+            <app-footer
+                    :window="window"
+                    :items="menuItems"
+            />
+        </footer>
     </div>
 </template>
 
@@ -71,6 +77,19 @@
         font-family: Avenir, Helvetica, Arial, sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
+
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
         padding: 0;
+
+        header {
+            background-color: white;
+        }
+
+        main {
+            flex: 1;
+            background-color: #F6F7F9;
+        }
     }
 </style>

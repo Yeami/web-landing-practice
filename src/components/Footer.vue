@@ -1,5 +1,5 @@
 <template>
-    <footer class="wrapper">
+    <div class="wrapper">
         <div class="container">
             <ul>
                 <li v-for="item in items">
@@ -10,7 +10,7 @@
                 <span>{{copywriting}}</span>
             </div>
         </div>
-    </footer>
+    </div>
 </template>
 
 <script>

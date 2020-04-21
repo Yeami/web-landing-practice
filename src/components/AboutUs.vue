@@ -48,7 +48,6 @@
 
 <style scoped lang="scss">
     .wrapper {
-        background-color: #F6F7F9;
         padding: 0;
 
         .row {

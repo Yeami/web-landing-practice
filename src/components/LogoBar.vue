@@ -66,7 +66,6 @@
             margin-bottom: 0.75rem;
             font-family: 'ArialMT', sans-serif;
             color: #4F4F4F;
-            background-color: white;
 
             .left-side {
                 display: flex;
