@@ -70,4 +70,79 @@
             width: 1218px;
         }
     }
+
+    @media screen and (max-width: 1385px) {
+        .wrapper {
+            .picture {
+                background-size: 792px 390px;
+                height: 390px;
+                width: 792px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 1159px) {
+        .wrapper {
+            .text-wrapper {
+                padding-left: 2rem;
+
+                .text {
+                    font-size: 2.5rem;
+                }
+            }
+
+            .picture {
+                background-size: 670px 330px;
+                height: 330px;
+                width: 670px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 954px) {
+        .wrapper {
+            .text-wrapper {
+                .text {
+                    font-size: 2.25rem;
+                }
+            }
+
+            .picture {
+                background-size: 487px 240px;
+                height: 240px;
+                width: 487px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 559px) {
+        .wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .text-wrapper {
+                width: 100%;
+                margin: 0.5rem 0;
+
+                .text {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                    max-width: none;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 459px) {
+        .wrapper {
+            .text-wrapper {
+                .text {
+                    font-size: 2.5rem;
+                }
+            }
+        }
+    }
 </style>
