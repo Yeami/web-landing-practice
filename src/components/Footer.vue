@@ -64,5 +64,15 @@
             color: rgba(44, 44, 44, 0.5);
             font-size: 0.875rem;
         }
+
+        @media screen and (max-width: 559px) {
+            ul {
+                flex-wrap: wrap;
+
+                li {
+                    flex: 0 50%;
+                }
+            }
+        }
     }
 </style>
